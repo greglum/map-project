@@ -1,0 +1,6 @@
+@ahupuaa_HostAddress = http://localhost:5234
+
+GET {{ahupuaa_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
