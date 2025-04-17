@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		37B2A4BB2DB0932900A6B9FB /* ahupuaa.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 37B2A4BA2DB0932900A6B9FB /* ahupuaa.geojson */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		37B2A49B2DB0841300A6B9FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		37B2A4842DB0841200A6B9FB /* ahupuaa-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ahupuaa-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B2A49A2DB0841300A6B9FB /* ahupuaa-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ahupuaa-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B2A4A42DB0841300A6B9FB /* ahupuaa-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ahupuaa-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B2A4BA2DB0932900A6B9FB /* ahupuaa.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = ahupuaa.geojson; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +93,7 @@
 		37B2A47B2DB0841200A6B9FB = {
 			isa = PBXGroup;
 			children = (
+				37B2A4BA2DB0932900A6B9FB /* ahupuaa.geojson */,
 				37B2A4862DB0841200A6B9FB /* ahupuaa-app */,
 				37B2A49D2DB0841300A6B9FB /* ahupuaa-appTests */,
 				37B2A4A72DB0841300A6B9FB /* ahupuaa-appUITests */,
@@ -225,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37B2A4BB2DB0932900A6B9FB /* ahupuaa.geojson in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
