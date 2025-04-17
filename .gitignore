@@ -408,3 +408,8 @@ Ahupuaa.API/Terraform/.terraform/*
 Ahupuaa.API/Terraform/.DS_Store
 Ahupuaa.API/Terraform/.terraform.lock.hcl
 .DS_Store
+Ahupuaa.API/Data Upload/Terraform/aws_dynamodb/.terraform/providers/registry.terraform.io/hashicorp/aws/4.67.0/darwin_arm64/terraform-provider-aws_v4.67.0_x5
+.gitignore
+Ahupuaa.API/Data Upload/Terraform/aws_dynamodb/terraform.tfstate.backup
+Ahupuaa.API/Data Upload/Terraform/aws_dynamodb/.terraform.lock.hcl
+Ahupuaa.API/Data Upload/Terraform/aws_dynamodb/tfplan
