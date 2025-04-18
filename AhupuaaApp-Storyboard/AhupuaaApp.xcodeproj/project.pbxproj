@@ -6,63 +6,68 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		37B2A4BB2DB0932900A6B9FB /* ahupuaa.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 37B2A4BA2DB0932900A6B9FB /* ahupuaa.geojson */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
-		37B2A4D92DB2FE5E00A6B9FB /* PBXContainerItemProxy */ = {
+		37B2A49B2DB0841300A6B9FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 37B2A4C32DB2FE5D00A6B9FB /* Project object */;
+			containerPortal = 37B2A47C2DB0841200A6B9FB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 37B2A4CA2DB2FE5D00A6B9FB;
-			remoteInfo = AhupuaaApp;
+			remoteGlobalIDString = 37B2A4832DB0841200A6B9FB;
+			remoteInfo = "ahupuaa-app";
 		};
-		37B2A4E32DB2FE5E00A6B9FB /* PBXContainerItemProxy */ = {
+		37B2A4A52DB0841300A6B9FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 37B2A4C32DB2FE5D00A6B9FB /* Project object */;
+			containerPortal = 37B2A47C2DB0841200A6B9FB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 37B2A4CA2DB2FE5D00A6B9FB;
-			remoteInfo = AhupuaaApp;
+			remoteGlobalIDString = 37B2A4832DB0841200A6B9FB;
+			remoteInfo = "ahupuaa-app";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		37B2A4CB2DB2FE5D00A6B9FB /* AhupuaaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AhupuaaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		37B2A4D82DB2FE5E00A6B9FB /* AhupuaaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AhupuaaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		37B2A4E22DB2FE5E00A6B9FB /* AhupuaaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AhupuaaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B2A4842DB0841200A6B9FB /* AhupuaaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AhupuaaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B2A49A2DB0841300A6B9FB /* ahupuaa-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ahupuaa-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B2A4A42DB0841300A6B9FB /* ahupuaa-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ahupuaa-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B2A4BA2DB0932900A6B9FB /* ahupuaa.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = ahupuaa.geojson; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		37B2A4CD2DB2FE5D00A6B9FB /* AhupuaaApp */ = {
+		37B2A4862DB0841200A6B9FB /* ahupuaa-app */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AhupuaaApp;
+			path = "ahupuaa-app";
 			sourceTree = "<group>";
 		};
-		37B2A4DB2DB2FE5E00A6B9FB /* AhupuaaAppTests */ = {
+		37B2A49D2DB0841300A6B9FB /* ahupuaa-appTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AhupuaaAppTests;
+			path = "ahupuaa-appTests";
 			sourceTree = "<group>";
 		};
-		37B2A4E52DB2FE5E00A6B9FB /* AhupuaaAppUITests */ = {
+		37B2A4A72DB0841300A6B9FB /* ahupuaa-appUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AhupuaaAppUITests;
+			path = "ahupuaa-appUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		37B2A4C82DB2FE5D00A6B9FB /* Frameworks */ = {
+		37B2A4812DB0841200A6B9FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37B2A4D52DB2FE5E00A6B9FB /* Frameworks */ = {
+		37B2A4972DB0841300A6B9FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37B2A4DF2DB2FE5E00A6B9FB /* Frameworks */ = {
+		37B2A4A12DB0841300A6B9FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +77,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		37B2A4C22DB2FE5D00A6B9FB = {
+		37B2A47B2DB0841200A6B9FB = {
 			isa = PBXGroup;
 			children = (
-				37B2A4CD2DB2FE5D00A6B9FB /* AhupuaaApp */,
-				37B2A4DB2DB2FE5E00A6B9FB /* AhupuaaAppTests */,
-				37B2A4E52DB2FE5E00A6B9FB /* AhupuaaAppUITests */,
-				37B2A4CC2DB2FE5D00A6B9FB /* Products */,
+				37B2A4BA2DB0932900A6B9FB /* ahupuaa.geojson */,
+				37B2A4862DB0841200A6B9FB /* ahupuaa-app */,
+				37B2A49D2DB0841300A6B9FB /* ahupuaa-appTests */,
+				37B2A4A72DB0841300A6B9FB /* ahupuaa-appUITests */,
+				37B2A4852DB0841200A6B9FB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		37B2A4CC2DB2FE5D00A6B9FB /* Products */ = {
+		37B2A4852DB0841200A6B9FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				37B2A4CB2DB2FE5D00A6B9FB /* AhupuaaApp.app */,
-				37B2A4D82DB2FE5E00A6B9FB /* AhupuaaAppTests.xctest */,
-				37B2A4E22DB2FE5E00A6B9FB /* AhupuaaAppUITests.xctest */,
+				37B2A4842DB0841200A6B9FB /* AhupuaaApp.app */,
+				37B2A49A2DB0841300A6B9FB /* ahupuaa-appTests.xctest */,
+				37B2A4A42DB0841300A6B9FB /* ahupuaa-appUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +101,135 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		37B2A4CA2DB2FE5D00A6B9FB /* AhupuaaApp */ = {
+		37B2A4832DB0841200A6B9FB /* AhupuaaApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37B2A4EC2DB2FE5E00A6B9FB /* Build configuration list for PBXNativeTarget "AhupuaaApp" */;
+			buildConfigurationList = 37B2A4AD2DB0841300A6B9FB /* Build configuration list for PBXNativeTarget "AhupuaaApp" */;
 			buildPhases = (
-				37B2A4C72DB2FE5D00A6B9FB /* Sources */,
-				37B2A4C82DB2FE5D00A6B9FB /* Frameworks */,
-				37B2A4C92DB2FE5D00A6B9FB /* Resources */,
+				37B2A4802DB0841200A6B9FB /* Sources */,
+				37B2A4812DB0841200A6B9FB /* Frameworks */,
+				37B2A4822DB0841200A6B9FB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				37B2A4CD2DB2FE5D00A6B9FB /* AhupuaaApp */,
+				37B2A4862DB0841200A6B9FB /* ahupuaa-app */,
 			);
 			name = AhupuaaApp;
 			packageProductDependencies = (
 			);
-			productName = AhupuaaApp;
-			productReference = 37B2A4CB2DB2FE5D00A6B9FB /* AhupuaaApp.app */;
+			productName = "ahupuaa-app";
+			productReference = 37B2A4842DB0841200A6B9FB /* AhupuaaApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		37B2A4D72DB2FE5E00A6B9FB /* AhupuaaAppTests */ = {
+		37B2A4992DB0841300A6B9FB /* ahupuaa-appTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37B2A4EF2DB2FE5E00A6B9FB /* Build configuration list for PBXNativeTarget "AhupuaaAppTests" */;
+			buildConfigurationList = 37B2A4B22DB0841300A6B9FB /* Build configuration list for PBXNativeTarget "ahupuaa-appTests" */;
 			buildPhases = (
-				37B2A4D42DB2FE5E00A6B9FB /* Sources */,
-				37B2A4D52DB2FE5E00A6B9FB /* Frameworks */,
-				37B2A4D62DB2FE5E00A6B9FB /* Resources */,
+				37B2A4962DB0841300A6B9FB /* Sources */,
+				37B2A4972DB0841300A6B9FB /* Frameworks */,
+				37B2A4982DB0841300A6B9FB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				37B2A4DA2DB2FE5E00A6B9FB /* PBXTargetDependency */,
+				37B2A49C2DB0841300A6B9FB /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				37B2A4DB2DB2FE5E00A6B9FB /* AhupuaaAppTests */,
+				37B2A49D2DB0841300A6B9FB /* ahupuaa-appTests */,
 			);
-			name = AhupuaaAppTests;
+			name = "ahupuaa-appTests";
 			packageProductDependencies = (
 			);
-			productName = AhupuaaAppTests;
-			productReference = 37B2A4D82DB2FE5E00A6B9FB /* AhupuaaAppTests.xctest */;
+			productName = "ahupuaa-appTests";
+			productReference = 37B2A49A2DB0841300A6B9FB /* ahupuaa-appTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		37B2A4E12DB2FE5E00A6B9FB /* AhupuaaAppUITests */ = {
+		37B2A4A32DB0841300A6B9FB /* ahupuaa-appUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37B2A4F22DB2FE5E00A6B9FB /* Build configuration list for PBXNativeTarget "AhupuaaAppUITests" */;
+			buildConfigurationList = 37B2A4B52DB0841300A6B9FB /* Build configuration list for PBXNativeTarget "ahupuaa-appUITests" */;
 			buildPhases = (
-				37B2A4DE2DB2FE5E00A6B9FB /* Sources */,
-				37B2A4DF2DB2FE5E00A6B9FB /* Frameworks */,
-				37B2A4E02DB2FE5E00A6B9FB /* Resources */,
+				37B2A4A02DB0841300A6B9FB /* Sources */,
+				37B2A4A12DB0841300A6B9FB /* Frameworks */,
+				37B2A4A22DB0841300A6B9FB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				37B2A4E42DB2FE5E00A6B9FB /* PBXTargetDependency */,
+				37B2A4A62DB0841300A6B9FB /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				37B2A4E52DB2FE5E00A6B9FB /* AhupuaaAppUITests */,
+				37B2A4A72DB0841300A6B9FB /* ahupuaa-appUITests */,
 			);
-			name = AhupuaaAppUITests;
+			name = "ahupuaa-appUITests";
 			packageProductDependencies = (
 			);
-			productName = AhupuaaAppUITests;
-			productReference = 37B2A4E22DB2FE5E00A6B9FB /* AhupuaaAppUITests.xctest */;
+			productName = "ahupuaa-appUITests";
+			productReference = 37B2A4A42DB0841300A6B9FB /* ahupuaa-appUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		37B2A4C32DB2FE5D00A6B9FB /* Project object */ = {
+		37B2A47C2DB0841200A6B9FB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
-					37B2A4CA2DB2FE5D00A6B9FB = {
+					37B2A4832DB0841200A6B9FB = {
 						CreatedOnToolsVersion = 16.3;
 					};
-					37B2A4D72DB2FE5E00A6B9FB = {
+					37B2A4992DB0841300A6B9FB = {
 						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 37B2A4CA2DB2FE5D00A6B9FB;
+						TestTargetID = 37B2A4832DB0841200A6B9FB;
 					};
-					37B2A4E12DB2FE5E00A6B9FB = {
+					37B2A4A32DB0841300A6B9FB = {
 						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 37B2A4CA2DB2FE5D00A6B9FB;
+						TestTargetID = 37B2A4832DB0841200A6B9FB;
 					};
 				};
 			};
-			buildConfigurationList = 37B2A4C62DB2FE5D00A6B9FB /* Build configuration list for PBXProject "AhupuaaApp" */;
+			buildConfigurationList = 37B2A47F2DB0841200A6B9FB /* Build configuration list for PBXProject "AhupuaaApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 37B2A4C22DB2FE5D00A6B9FB;
+			mainGroup = 37B2A47B2DB0841200A6B9FB;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 37B2A4CC2DB2FE5D00A6B9FB /* Products */;
+			productRefGroup = 37B2A4852DB0841200A6B9FB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				37B2A4CA2DB2FE5D00A6B9FB /* AhupuaaApp */,
-				37B2A4D72DB2FE5E00A6B9FB /* AhupuaaAppTests */,
-				37B2A4E12DB2FE5E00A6B9FB /* AhupuaaAppUITests */,
+				37B2A4832DB0841200A6B9FB /* AhupuaaApp */,
+				37B2A4992DB0841300A6B9FB /* ahupuaa-appTests */,
+				37B2A4A32DB0841300A6B9FB /* ahupuaa-appUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		37B2A4C92DB2FE5D00A6B9FB /* Resources */ = {
+		37B2A4822DB0841200A6B9FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B2A4BB2DB0932900A6B9FB /* ahupuaa.geojson in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B2A4982DB0841300A6B9FB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37B2A4D62DB2FE5E00A6B9FB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		37B2A4E02DB2FE5E00A6B9FB /* Resources */ = {
+		37B2A4A22DB0841300A6B9FB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +239,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		37B2A4C72DB2FE5D00A6B9FB /* Sources */ = {
+		37B2A4802DB0841200A6B9FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37B2A4D42DB2FE5E00A6B9FB /* Sources */ = {
+		37B2A4962DB0841300A6B9FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37B2A4DE2DB2FE5E00A6B9FB /* Sources */ = {
+		37B2A4A02DB0841300A6B9FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +263,74 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		37B2A4DA2DB2FE5E00A6B9FB /* PBXTargetDependency */ = {
+		37B2A49C2DB0841300A6B9FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 37B2A4CA2DB2FE5D00A6B9FB /* AhupuaaApp */;
-			targetProxy = 37B2A4D92DB2FE5E00A6B9FB /* PBXContainerItemProxy */;
+			target = 37B2A4832DB0841200A6B9FB /* AhupuaaApp */;
+			targetProxy = 37B2A49B2DB0841300A6B9FB /* PBXContainerItemProxy */;
 		};
-		37B2A4E42DB2FE5E00A6B9FB /* PBXTargetDependency */ = {
+		37B2A4A62DB0841300A6B9FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 37B2A4CA2DB2FE5D00A6B9FB /* AhupuaaApp */;
-			targetProxy = 37B2A4E32DB2FE5E00A6B9FB /* PBXContainerItemProxy */;
+			target = 37B2A4832DB0841200A6B9FB /* AhupuaaApp */;
+			targetProxy = 37B2A4A52DB0841300A6B9FB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		37B2A4EA2DB2FE5E00A6B9FB /* Debug */ = {
+		37B2A4AE2DB0841300A6B9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.personal.ahupuaa-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37B2A4AF2DB0841300A6B9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.personal.ahupuaa-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37B2A4B02DB0841300A6B9FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,7 +393,7 @@
 			};
 			name = Debug;
 		};
-		37B2A4EB2DB2FE5E00A6B9FB /* Release */ = {
+		37B2A4B12DB0841300A6B9FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -388,61 +449,7 @@
 			};
 			name = Release;
 		};
-		37B2A4ED2DB2FE5E00A6B9FB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.personal.AhupuaaApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		37B2A4EE2DB2FE5E00A6B9FB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.personal.AhupuaaApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		37B2A4F02DB2FE5E00A6B9FB /* Debug */ = {
+		37B2A4B32DB0841300A6B9FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -451,16 +458,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.personal.AhupuaaAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.personal.ahupuaa-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AhupuaaApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AhupuaaApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ahupuaa-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ahupuaa-app";
 			};
 			name = Debug;
 		};
-		37B2A4F12DB2FE5E00A6B9FB /* Release */ = {
+		37B2A4B42DB0841300A6B9FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,87 +476,87 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.personal.AhupuaaAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.personal.ahupuaa-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AhupuaaApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AhupuaaApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ahupuaa-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ahupuaa-app";
 			};
 			name = Release;
 		};
-		37B2A4F32DB2FE5E00A6B9FB /* Debug */ = {
+		37B2A4B62DB0841300A6B9FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.personal.AhupuaaAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.personal.ahupuaa-appUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AhupuaaApp;
+				TEST_TARGET_NAME = "ahupuaa-app";
 			};
 			name = Debug;
 		};
-		37B2A4F42DB2FE5E00A6B9FB /* Release */ = {
+		37B2A4B72DB0841300A6B9FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.personal.AhupuaaAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.personal.ahupuaa-appUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AhupuaaApp;
+				TEST_TARGET_NAME = "ahupuaa-app";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		37B2A4C62DB2FE5D00A6B9FB /* Build configuration list for PBXProject "AhupuaaApp" */ = {
+		37B2A47F2DB0841200A6B9FB /* Build configuration list for PBXProject "AhupuaaApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37B2A4EA2DB2FE5E00A6B9FB /* Debug */,
-				37B2A4EB2DB2FE5E00A6B9FB /* Release */,
+				37B2A4B02DB0841300A6B9FB /* Debug */,
+				37B2A4B12DB0841300A6B9FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37B2A4EC2DB2FE5E00A6B9FB /* Build configuration list for PBXNativeTarget "AhupuaaApp" */ = {
+		37B2A4AD2DB0841300A6B9FB /* Build configuration list for PBXNativeTarget "AhupuaaApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37B2A4ED2DB2FE5E00A6B9FB /* Debug */,
-				37B2A4EE2DB2FE5E00A6B9FB /* Release */,
+				37B2A4AE2DB0841300A6B9FB /* Debug */,
+				37B2A4AF2DB0841300A6B9FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37B2A4EF2DB2FE5E00A6B9FB /* Build configuration list for PBXNativeTarget "AhupuaaAppTests" */ = {
+		37B2A4B22DB0841300A6B9FB /* Build configuration list for PBXNativeTarget "ahupuaa-appTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37B2A4F02DB2FE5E00A6B9FB /* Debug */,
-				37B2A4F12DB2FE5E00A6B9FB /* Release */,
+				37B2A4B32DB0841300A6B9FB /* Debug */,
+				37B2A4B42DB0841300A6B9FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37B2A4F22DB2FE5E00A6B9FB /* Build configuration list for PBXNativeTarget "AhupuaaAppUITests" */ = {
+		37B2A4B52DB0841300A6B9FB /* Build configuration list for PBXNativeTarget "ahupuaa-appUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37B2A4F32DB2FE5E00A6B9FB /* Debug */,
-				37B2A4F42DB2FE5E00A6B9FB /* Release */,
+				37B2A4B62DB0841300A6B9FB /* Debug */,
+				37B2A4B72DB0841300A6B9FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 37B2A4C32DB2FE5D00A6B9FB /* Project object */;
+	rootObject = 37B2A47C2DB0841200A6B9FB /* Project object */;
 }
