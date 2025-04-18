@@ -34,22 +34,9 @@
 		37B2A4BA2DB0932900A6B9FB /* ahupuaa.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = ahupuaa.geojson; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		37B2A4AC2DB0841300A6B9FB /* Exceptions for "ahupuaa-app" folder in "ahupuaa-app" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 37B2A4832DB0841200A6B9FB /* ahupuaa-app */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		37B2A4862DB0841200A6B9FB /* ahupuaa-app */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				37B2A4AC2DB0841300A6B9FB /* Exceptions for "ahupuaa-app" folder in "ahupuaa-app" target */,
-			);
 			path = "ahupuaa-app";
 			sourceTree = "<group>";
 		};
